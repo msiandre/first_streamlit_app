@@ -3,6 +3,7 @@
 import streamlit
 import snowflake.connector
 import requests
+from urllib.error import URLError
 
 streamlit.title('my parent new healthy dinner')
 streamlit.header('Breakfast Menu')
